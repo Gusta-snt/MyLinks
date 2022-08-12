@@ -10,14 +10,42 @@ ul {
 }
 
 a {
-  display: block;
-  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+a:not(#portfolio-link) {
+  padding: 5px 10px;
   border: 1px white solid;
   border-radius: 100px;
   transition: all .3s;
 }
 
-a:hover {
+a:hover:not(#portfolio-link) {
   color: black;
   background-color: white;
+}
+
+#portfolio-link {
+  padding: 5px 10px;
+  border: 1px #2add1a solid;
+  border-radius: 100px;
+  transition: all .3s;
+  color: #2add1a;
+}
+
+#portfolio-link:hover {
+  color: black;
+  background-color: #2add1a;
+}
+
+#portfolio-link i {
+  width: fit-content;
+  height: 40px;
+}
+
+#portfolio-link i img {
+  height: 40px;
 }

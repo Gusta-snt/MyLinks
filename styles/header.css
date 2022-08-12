@@ -6,6 +6,9 @@
 #profile-image {
   width: 250px;
   position: absolute;
+  border-radius: 50%;
+  outline: 2px #2add1a solid;
+  padding: 10px;
 }
 
 #logo-image {
