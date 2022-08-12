@@ -49,3 +49,35 @@ a:hover:not(#portfolio-link) {
 #portfolio-link i img {
   height: 40px;
 }
+
+path {
+  transition: all .3s;
+}
+
+#instagram a i, #linkedin a i, #github a i {
+  width: 30px;
+  height: 30px;
+}
+
+#instagram a i svg, #linkedin a i svg, #github a i img {
+  width: 30px;
+  height: 30px;
+}
+
+#instagram .hover i svg path {
+  stroke: #171516;
+}
+
+#linkedin .hover i svg path {
+  stroke: #171516;
+  fill: #171516;
+}
+
+#github a i img {
+  filter: invert(1);
+
+}
+
+#github .hover i img {
+  filter: invert(0);
+}

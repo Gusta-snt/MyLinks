@@ -6,6 +6,11 @@
   text-decoration: none;
   list-style: none;
   color: white;
+  user-select: none;
+}
+
+img, svg {
+  pointer-events: none;
 }
 
 body, #root {
